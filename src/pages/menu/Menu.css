@@ -1,0 +1,21 @@
+.icon {
+    position: relative;
+    top: -1px;
+    font-size: 20px;
+}
+
+.main-menu li {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.sub-menu li{
+    padding: 6px 8px !important;
+    font-size: 1rem;
+}
+.focus {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px !important;
+}

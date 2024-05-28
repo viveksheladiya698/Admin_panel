@@ -1,0 +1,16 @@
+ul,li{
+    margin: 0% !important;
+    padding: 0% !important;
+    list-style-type: none;
+}
+.App{
+    padding-bottom: 100px;
+}
+a{
+    text-decoration: none !important;
+    color: unset !important;
+}
+.errors{
+    color: red;
+}
+  

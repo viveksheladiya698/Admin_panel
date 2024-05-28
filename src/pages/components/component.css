@@ -1,0 +1,159 @@
+.form {
+    background-color: white;
+    padding: 30px 20px;
+}
+
+.form input {
+    border: 1px solid #ddd;
+    outline: 0;
+}
+
+.heading {
+    font-weight: 500 !important;
+    font-size: 30px;
+}
+
+.form-heading {
+    color: #007BFF;
+    font-size: 25px;
+}
+
+.submit {
+    background-color: #007BFF;
+    color: white;
+}
+
+.display-table {
+    background-color: white;
+}
+
+.display-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.display-table td {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.width {
+    width: 70% !important;
+}
+
+.home a {
+    color: blue !important;
+}
+
+select {
+    border: 1px solid #ddd;
+    outline: 0;
+}
+
+.home {
+    font-size: 17px;
+}
+
+.dispaly-padding {
+    padding: 40px 30px;
+}
+
+.edit {
+    color: #007BFF !important;
+}
+
+.delete {
+    color: red !important;
+    cursor: pointer;
+}
+
+.tr {
+    padding: 10px 0px 0px 0px;
+}
+
+.margin {
+    margin-right: 10px;
+}
+
+.edit-btn .btn {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0px !important;
+}
+
+.position {
+    position: relative;
+    top: -2px;
+}
+
+
+/* comfirm box css */
+.comfirm-box {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
+.comfirm-box::backdrop {
+    content: '';
+    background-color: rgba(red, green, blue, alpha);
+}
+
+/* ----------------------------- accoridan ----------------------------- */
+.accordion-item {
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.accordion-content {
+    color: transparent;
+    background-color: transparent;
+    transition: display .3s ease;
+}
+.close {
+    height: 0px;
+    display: none;
+    transition: display 0.3s ease;
+}
+.open {
+    display: block;
+    height: auto;
+}
+/* pagination */
+.pagination{
+    margin-top: 25px !important;
+    justify-content: center;
+    align-items: center;
+}
+.pagination li:not(:first-child,:last-child){
+    margin: 10px !important;
+    padding: 10px !important;
+}
+.active{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+}
+.pagination li:first-child{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+}
+.pagination li:last-child{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+.side-menubar
+{
+    background-color: #343A40;
+}
+.theme-color{
+    color: rgba(255, 255, 255, .8);
+}
+.white{
+    color: white;
+}
+.padding{
+    padding: 0px 5px;
+}
+.admin-img{
+    border-bottom: 1px solid #4b545c;
+}
+.admin-image{
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.admin-text{
+    font-size: 1rem;
+}

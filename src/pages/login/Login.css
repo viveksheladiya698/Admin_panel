@@ -1,0 +1,35 @@
+.login-body{
+    background-color: #c2c4c5ce;
+}
+.w-custom{
+    max-width: 30%;
+    margin: auto;
+}
+.login{
+    background-color: white;
+    height: auto;
+}
+.pading{
+    padding: 30px 20px;
+}
+.login h3{
+    color: #666666;
+    font-weight: 400;
+    font-size: 25px;
+}
+.login-form input{
+    border: 1px solid #9a9a9a;
+    padding: 5px 0px;
+    outline: 0;
+}
+.login-form button{
+    background-color: #0069D9;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 30px !important;
+}
+.spinner-border{
+    height: 25px !important;
+    width: 25px !important;
+}

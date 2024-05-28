@@ -1,0 +1,68 @@
+.bg-color {
+    background-color: #343A40;
+}
+.side-box {
+    max-width: 25% !important;
+}
+
+.side-bar {
+    background-color: #343A40;
+    transition: min-width .3s ease, max-width .3s ease;
+}
+
+.max-width {
+    min-width: 25%;
+    max-width: 25%;
+}
+
+.min-width {
+    min-width: 0;
+    max-width: 0;
+}
+
+/* media query */
+
+/*  --------------------------- extra small device ---------------------------- */
+
+@media (min-Width:300px) and (max-width:576px) {
+    .max-width {
+        min-width: 60% !important;
+        max-width: 60% !important;
+    }
+}
+
+/* -------------------------------- small device --------------------------------- */
+
+@media (min-Width:577px) and (max-width:768px) {
+    .max-width {
+        min-width: 40% !important;
+        max-width: 40% !important;
+    }
+}
+
+/* -------------------------------- medium device --------------------------------- */
+
+@media (min-Width:769px) and (max-width:992px) {
+    .max-width {
+        min-width: 30% !important;
+        max-width: 30% !important;
+    }
+}
+
+/* -------------------------------- large device --------------------------------- */
+
+@media (min-Width:993px) and (max-width:1200px) {
+    .max-width {
+        min-width: 25% !important;
+        max-width: 25% !important;
+    }
+}
+
+/* -------------------------------- extra large device --------------------------------- */
+
+@media (min-Width:1201px) {
+    .max-width {
+        min-width: 20% !important;
+        max-width: 20% !important;
+    }
+}
